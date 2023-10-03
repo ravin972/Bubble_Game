@@ -44,7 +44,7 @@ The objective of the Bubble Game is simple: pop as many bubbles as you can withi
 4. You have a limited time (60 seconds) to score as many points as possible.
 5. The hit count, timer, and score are displayed at the top of the screen.
 
-## Technologies Used
+## Tech Stack Used
 
 This project was created using the following technologies:
 
