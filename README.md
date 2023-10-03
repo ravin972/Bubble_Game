@@ -3,6 +3,7 @@
 Welcome to the Bubble Game! This simple web-based game allows you to test your reflexes and aim by popping bubbles that appear on the screen.
 
 ## Table of Contents
+
 - [Demo](#demo)
 - [Getting Started](#getting-started)
 - [Gameplay](#gameplay)
