@@ -15,17 +15,27 @@ body {
   padding: 50px 110px;
   overflow: hidden;
 }
+#title{
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  margin-top: -25px;
+  margin-bottom: 25px;
+  font-size: 50px;
+}
 .container {
   height: 100%;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   overflow: hidden;
+  box-shadow: 10px 20px 30px #976bfc;
 }
 .panel-top {
   width: 100%;
   height: 70px;
   display: flex;
   align-items: center;
+  padding: 0px 150px;
   justify-content: space-around;
   background-color: #976bfc;
 }
@@ -56,11 +66,33 @@ body {
   font-weight: 600;
   color: #ffffff;
 }
+.panel-top > #startButton {
+  display: flex;
+  margin-left: 200px;
+  border: none;
+  background-color: #3f4244;
+  color: #ffffff;
+  padding: 13px 27px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+.panel-top > #startButton:hover {
+  font-weight: 800;
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: #464646;
+}
 #panel-btm {
   width: 100%;
   height: 100%;
   background-color: #dadada;
   display: flex;
+  justify-content: center;
+  color: #000000c2;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  align-items: center;
   gap: 12px;
   flex-wrap: wrap;
   padding: 15px;
@@ -77,8 +109,8 @@ body {
   height: 45px;
   width: 45px;
 }
-.bubble:hover{
-    background-color: #663dc5;
-    cursor: pointer;
-    transition: all ease-in-out 0.3s;
+.bubble:hover {
+  background-color: #663dc5;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
 }
