@@ -15,7 +15,7 @@ Welcome to the Bubble Game! This simple web-based game allows you to test your r
 
 Before diving into the game, you can check out a live demo [here](#your-demo-link).
 
-![Bubble Game Demo](bubble-game-demo.gif)
+![Bubble Game Demo](ezgif.com-gif-maker.gif)
 
 ## Getting Started
 
